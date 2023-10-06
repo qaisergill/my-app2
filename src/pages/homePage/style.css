@@ -1,0 +1,273 @@
+/*.banner_grid {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 35px;
+    
+}
+ .banner_section{
+    background-image: url("../../images/homeimg/after-banner-imgages/Subtract.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 335px;
+} 
+.banner_img{
+    background-image: url("../../images/homeimg/after-banner-imgages/Ellipse\ 5.png");
+    width: 275px;
+    float: right;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 300px
+}
+.banner_img img{
+    padding-left: 25px;
+    width: 100%;
+    border-radius: 185px;
+}
+
+.banner-left h4 {
+    background-color: #058B8C;
+    color: white;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 400;
+    width: 115px;
+    padding: 5px 10px;
+}
+
+.banner-left {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.banner-left h2 {
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.banner-left h1 {
+    font-size: 55px;
+    font-weight: 700;
+}
+
+span {
+    color: #058B8C;
+}
+
+.banner-left {
+    font-size: 20px;
+    line-height: 33px;
+}*/
+
+
+
+/* Add this CSS to your style.css file */
+/* .btn_banner {
+    display: flex;
+    flex-direction: row;
+    gap: 23px;
+}
+
+.btn_banner a {
+    text-decoration: none;
+    padding: 25px;
+    color: #1E1E1E;
+    padding: 1px 30px;
+    background-color: white;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    border: 2px solid #1E1E1E;
+    text-transform: uppercase;
+
+}
+
+.btn_banner a:hover {
+    background-color: #8D0F11;
+    color: white;
+}
+
+.banner_img {
+    width: 370px;
+    margin: auto;
+}
+
+.banner_img img {
+    width: 100%;
+    border-radius: 200px;
+}
+ 
+.after_banner_grid_inner  {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+     margin-top: 40px; 
+     margin-bottom: 20px; 
+}
+.after_banner_img{
+    width: 140px;
+    height: 140px;
+}
+
+.after_banner_img img {
+padding: 29px;
+    width: 100%;
+    background: #F8F8F8;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.08);
+    border-radius: 300px; 
+
+    
+/}
+ .after_banner_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.after_banner_item h3{
+     margin-top: 20px; 
+     text-align: center;
+}
+.after_banner_item h3:hover{
+    color: #058B8C;
+    transition: all 0.3s;
+}*/
+
+  
+  
+  .banner_section{
+    background-image: url('../../images/homeimg/after-banner-imgages/Subtract.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 335px;
+}
+.banner_grid {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    padding: 25px 0px;
+}
+
+.banner-left{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+/*
+.banner_left h3 {
+    border-radius: 30px;
+    background: #058B8C;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    width: 115px;
+    padding: 5px 10px;
+}*/
+.banner-left h4 {
+    background-color: #058B8C;
+    color: white;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 400;
+    width: 115px;
+    padding: 5px 10px;
+}
+
+
+.banner-left h2{
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.banner-left h1{
+    font-size: 55px;
+    font-weight: 700;
+}
+h1 span{
+    color: #058B8C;
+}
+
+.banner-left p{
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.btn_banner{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.btn_banner a{
+    text-decoration: none;
+    color: #1E1E1E;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border:  2px solid #1E1E1E;
+    border-radius: 25px;
+    padding: 10px 30px;
+}
+
+.btn_banner a:hover{
+    color: #fff;
+    background-color: #8D0F11;
+    border: none;
+}
+
+.banner_img {
+    width: 375px;
+    float: right;
+    background-image: url('../../images/homeimg/after-banner-imgages/Ellipse\ 5.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 300px;
+} 
+
+.banner_img img{
+    width: 100%;
+    border-radius: 185px;
+    padding-left: 25px;
+}
+
+.after_banner_grid{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+}
+.after_banner_inner{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+}
+
+.after_banner_img{
+    width: 150px;
+    height: 150px;
+}
+
+.after_banner_img img{
+    width: 100%;
+    padding: 25px;
+    border-radius: 300px;
+background: #F8F8F8;
+box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.08);
+}
+
+.after_banner_inner h2{
+    font-size: 24px;
+    font-weight: 600;
+}
+.after_banner_img h2:hover{
+    color: #058B8C;
+    transition: all 0.3s;}
