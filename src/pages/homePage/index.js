@@ -4,6 +4,11 @@ import bannerimage from "../../images/homeimg/banner/bannerimage.svg"
 import afterimages from "../../images/homeimg/after-banner-imgages/24by7.svg"
 import dollarimg from "../../images/homeimg/after-banner-imgages/dollar.svg"
 import team from "../../images/homeimg/after-banner-imgages/experience-team.svg"
+import Explore from './components/explore'
+import Who from './components/who.js'
+import Authority from './components/authority'
+import Cards from './components/cards'
+
 import "./style.css"
 import { Form } from 'react-router-dom'
 
@@ -59,6 +64,10 @@ const HomePage = () => {
 
                 </div>
             </section>
+            <Explore/>
+            <Who/>
+            <Authority/>
+            <Cards/>
         </Layout>
     )
 }
